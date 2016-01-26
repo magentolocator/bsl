@@ -7,7 +7,7 @@
 }
 
 #index-banner {
-    background-color: #ee6e73;
+    background-color: #221d1c;
     min-height: 35em;
 }
 
@@ -672,7 +672,7 @@ nav ul li.active {
 }
 
 .header {
-    color: #ee6e73;
+    color: #221d1c;
     font-weight: 300
 }
 
@@ -836,7 +836,7 @@ a.button-collapse.top-nav.full {
 }
 
 #index-banner {
-    background-color: #ee6e73
+    background-color: #221d1c
 }
 
 #index-banner .container {
@@ -926,7 +926,7 @@ a.button-collapse.top-nav.full {
 
 .promo i {
     margin: 40px 0;
-    color: #ee6e73;
+    color: #221d1c;
     font-size: 7rem;
     display: block
 }
@@ -944,7 +944,7 @@ a.button-collapse.top-nav.full {
 }
 
 #front-page-nav a {
-    color: #ee6e73
+    color: #221d1c
 }
 
 #front-page-nav li:hover {
@@ -1457,7 +1457,7 @@ body.parallax-demo footer {
 }
 
 #tx-live-lang-container .txlive-langselector-toggle {
-    border-bottom: 2px solid #ee6e73
+    border-bottom: 2px solid #221d1c
 }
 
 #tx-live-lang-container .txlive-langselector-current {
