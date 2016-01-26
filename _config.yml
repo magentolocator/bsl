@@ -3,17 +3,17 @@ name: "Magento Store Locator"
 title: "Magento Store Locator"
 slogan: "The most useful Store Locator"
 description: "Find a store near your"
-email: "support@beststorelocator.com"
-url: "https://www.beststorelocator.com"
-baseurl: "https://www.beststorelocator.com"
-domain: "beststorelocator.com"
-author: "beststorelocator"
+email: "support@magestorelocator.com"
+url: "https://www.magestorelocator.com"
+baseurl: "https://www.magestorelocator.com"
+domain: "magestorelocator.com"
+author: "magestorelocator"
 this_year: "2016"
 
 allow_search_engine: false
 
 
-paypal: "support@beststorelocator.com"
+paypal: "support@magestorelocator.com"
 
 google_verify: "mqeRPCxfPDdd8Ai589_r1ylvomMFyjYC0epneqbK74"
 bing_verify: 
@@ -21,7 +21,7 @@ google_analytics:
 
 # Social accounts
 google_plus: 
-disqus_shortname: "beststorelocator"
+disqus_shortname: "magestorelocator"
 
 subcriber_url: "http://t.us3.list-manage1.com/subscribe/post?u=531af730d34352cf489&amp;id=0416bef2d9"
 
