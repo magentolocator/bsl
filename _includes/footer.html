@@ -1,0 +1,52 @@
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12">
+          <h5 class="white-text">Company</h5>
+          <ul>
+            <li>
+                <a class="white-text" href="{{ site.url }}/">Home</a>
+            </li>
+            <li><a class="white-text" href="{{ site.url }}/contact.html" >Contact</a></li>
+            <li><a class="white-text" href="{{ site.url }}/privacy.html" title="Privacy">Privacy</a></li>
+            <li><a class="white-text" href="{{ site.url }}/tos.html" title="Terms and Conditions">TOS</a></li>
+          </ul>
+        </div>
+
+        <div class="col l3 s12">
+          <h5 class="white-text">Quick links</h5>
+          <ul>
+            <li><a class="white-text" href="{{ site.url }}/features/" >Features</a></li>
+            <li><a class="white-text" href="{{ site.url }}/pricing/" >Pricing</a></li>
+            <li><a class="white-text" href="{{ site.url }}/faq/" >FAQ</a></li>
+            <li><a class="white-text" href="{{ site.url }}/screenshots/" >Screenshots</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col l3 s12">
+            <h5 class="white-text"><a class="white-text" href="/categories/blog.html">Blog</a></h5>
+            <ul>
+                {% for post in site.categories.blog limit:5 %}
+                <li><a class="white-text" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+                
+              </ul>
+        </div>
+
+
+        <div class="col l3 s12">
+           {% include footer_right.html %}
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © Copyright by {{ site.name }} {{ site.this_year }}
+        <a class="grey-text text-lighten-4 right" href="{{ site.url }}">{{ site.name }}</a>
+
+      </div>
+
+    </div>
+</footer>
