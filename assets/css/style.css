@@ -11,7 +11,7 @@
     min-height: 35em;
 }
 
-.btn-light:hover {
+/*.btn-light:hover {
     background-color: #f5a5a8;
 }
 
@@ -22,7 +22,7 @@
     line-height: 70px;
     font-size: 18px;
     font-weight: 400;
-}
+}*/
 
 .picker__holder,
 .picker__frame {
