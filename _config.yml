@@ -10,7 +10,7 @@ domain: "magestorelocator.com"
 author: "magestorelocator"
 this_year: "2016"
 
-allow_search_engine: false
+allow_search_engine: true
 
 
 paypal: "support@magestorelocator.com"
