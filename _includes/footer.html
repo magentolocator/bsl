@@ -25,7 +25,7 @@
 
 
         <div class="col l3 s12">
-            <h5 class="white-text"><a class="white-text" href="/categories/blog.html">Blog</a></h5>
+            <h5 class="white-text">Blog</h5>
             <ul>
                 {% for post in site.categories.blog limit:5 %}
                 <li><a class="white-text" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
