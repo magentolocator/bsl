@@ -21,3 +21,98 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/assets/img/logomsl.jpg"
+    }
+</script>
+
+
+<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "Organization",
+	  "url" : "{{ site.url }}",
+	  "contactPoint" : [{
+	    "@type" : "ContactPoint",
+	    "telephone" : "+1-202-555-0116",
+	    "contactType" : "Customer service"
+	  }]
+	}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "{{ site.name }}",
+  "url" : "{{ site.url }}",
+  "sameAs" : [
+    "https://www.facebook.com/magestorelocator/",
+    "https://plus.google.com/u/0/106286908733721179576"
+  ]
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ site.url }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "WebSite",
+  "name" : "RewardPoints",
+  "alternateName" : "{{ site.name }}",
+  "url" : "{{ site.url }}"
+}
+</script>
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Restaurant",
+  "@id": "{{ site.phone }}",
+  "name": "{{ site.name }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "148 W 51st St",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10019",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.9678965,
+    "longitude": -75.8902705
+  },
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}"
+  
+}
+</script>
