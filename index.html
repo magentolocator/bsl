@@ -8,6 +8,36 @@ meta-keywords: "magento store locator, magento store locator module, magento sto
 redirect_from:
     - /index.php/
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "{{ site.name }}",
+  "image": "{{ site.name }}/assets/img/extensions-images/streetview.png",
+  "description": "{{ site.description }}",
+  
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "90"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "price": "99",
+    "availability": "http://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "{{ site.name }}"
+    }
+  }
+}
+</script>
+
+
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
